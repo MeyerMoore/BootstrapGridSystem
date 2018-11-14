@@ -2,6 +2,16 @@
 * {
     box-sizing: border-box;
 }
+/* colors */
+:root {
+    --mm-red: rgb(214,95,69);
+    --mm-orange: rgb(222,160,61);
+    --mm-green: rgb(136,174,116);
+    --mm-blue: rgb(75,168,169);
+    --mm-grey1: rgb(240,240,240);
+    --mm-grey2: rgb(230,230,230);
+}
+/* Global classes */
 /* Header and paragraph size and font settings */
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
@@ -24,20 +34,15 @@ h5 {
 p {
     font-family: 'Abel', sans-serif;
 }
-/* colors */
-:root {
-    --mm-red: rgb(214,95,69);
-    --mm-orange: rgb(222,160,61);
-    --mm-green: rgb(136,174,116);
-    --mm-blue: rgb(75,168,169);
-    --mm-grey1: rgb(240,240,240);
-    --mm-grey2: rgb(230,230,230);
+/* Background */
+body {
+  background-color: var(--mm-grey2);
 }
-/* Global classes */
 .heading-img {
     margin: 0 auto;
     text-align: center;
 }
+/* circular buttons */
 .btn-circle {
   width: 245px;
   height: 245px;
@@ -47,12 +52,20 @@ p {
   border: 15px solid white;
   color: white;
 }
+.col-xl {
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* Very Small */
 @media screen and (max-width: 320px) {
   /* test code */
   /* body {background-color: var(--mm-red)} */
   /* end test code */
+
+  /* hidden elements */
+
+  /* visible elements */
   .nav-menu-xs {
     /* this element is only to be displayed on the small screen */
     font-size: 14px !important;
@@ -65,25 +78,25 @@ p {
   body {background-color: var(--mm-orange)}
   /* hidden elements */
   .nav-menu-xs {display: none;}
+  /* visible elements */
 }
 
 /* Medium */
 @media screen and (min-width: 426px) and (max-width: 768px){
   /* test code */
-  body {background-color: var(--mm-blue)}
+  /* body {background-color: var(--mm-blue)} */
+  /* end test code */
   /* hidden elements */
   .nav-menu-xs {display: none;}
+  /* visible elements */
 }
 
 /* Large */
 @media screen and (min-width: 769px) {
   /* test code */
-  body {background-color: var(--mm-grey2)}
+  /* body {background-color: var(--mm-grey2)} */
+  /* end test code */
   /* hidden elements */
   .nav-menu-xs {display: none;}
-}
-
-.col-xl {
-    text-align: center;
-    margin: 0 auto;
+  /* visible elements */
 }
