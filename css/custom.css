@@ -2,33 +2,27 @@
 * {
     box-sizing: border-box;
 }
-
+/* Header and paragraph size and font settins */
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
 }
-
-p {
-    font-family: Abel, sans-serif;
-}
-
 h1 {
     font-size: 64px;
 }
-
 h2 {
     font-size: 48px;
 }
-
 h3 {
     font-size: 40px;
 }
-
 h4 {
     font-size: 32px;
 }
-
 h5 {
     font-size: 28px;
+}
+p {
+    font-family: Abel, sans-serif;
 }
 /* colors */
 :root {
@@ -48,20 +42,24 @@ h5 {
 
 /* Very Small */
 @media screen and (max-width: 320px) {
+  /* test code */
   body {background-color: var(--mm-red)}
 }
 
 /* Small */
 @media screen and (min-width: 321px) and (max-width: 425px){
+  /* test code */
   body {background-color: var(--mm-orange)}
 }
 
 /* Medium */
 @media screen and (min-width: 426px) and (max-width: 768px){
+  /* test code */
   body {background-color: var(--mm-blue)}
 }
 
 /* Large */
 @media screen and (min-width: 769px) {
+  /* test code */
   body {background-color: var(--mm-grey2)}
 }
