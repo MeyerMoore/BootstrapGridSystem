@@ -47,21 +47,21 @@ h5 {
 
 
 /* Very Small */
-@media screen and (max-width : 320px) {
-
+@media screen and (max-width: 320px) {
+  body {background-color: var(--mm-red)}
 }
 
 /* Small */
-@media screen and (max-width: 425px){
-
+@media screen and (min-width: 321px) and (max-width: 425px){
+  body {background-color: var(--mm-orange)}
 }
 
 /* Medium */
-@media screen and (max-width: 768px){
-
+@media screen and (min-width: 426px) and (max-width: 768px){
+  body {background-color: var(--mm-blue)}
 }
 
 /* Large */
-@media screen and (min-width : 1224px) {
-
+@media screen and (min-width: 769px) {
+  body {background-color: var(--mm-grey2)}
 }
