@@ -30,31 +30,7 @@ h4 {
 h5 {
     font-size: 28px;
 }
-
-/* Mobile Devices ----------- */
-@media screen and (max-width : 425px) {
-    .row {
-
-    }
-}
-
-/* Laptops ----------- */
-@media screen
-and (min-width : 1224px) {
-    /* Styles */
-}
-
-/* Large screens ----------- */
-@media screen
-and (min-width : 1824px) {
-    /* Styles */
-}
-
-.heading-img {
-    margin: 0 auto;
-    text-align: center;
-}
-
+/* colors */
 :root {
     --mm-red: rgb(214,95,69);
     --mm-orange: rgb(222,160,61);
@@ -64,3 +40,28 @@ and (min-width : 1824px) {
     --mm-grey2: rgb(230,230,230);
 }
 
+.heading-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Very Small */
+@media screen and (max-width : 320px) {
+
+}
+
+/* Small */
+@media screen and (max-width: 425px){
+
+}
+
+/* Medium */
+@media screen and (max-width: 768px){
+
+}
+
+/* Large */
+@media screen and (min-width : 1224px) {
+
+}
