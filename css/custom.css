@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
 }
-/* Header and paragraph size and font settins */
+/* Header and paragraph size and font settings */
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
 }
@@ -22,7 +22,7 @@ h5 {
     font-size: 28px;
 }
 p {
-    font-family: Abel, sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 /* colors */
 :root {
@@ -62,4 +62,9 @@ p {
 @media screen and (min-width: 769px) {
   /* test code */
   body {background-color: var(--mm-grey2)}
+}
+
+.col-xl {
+    text-align: center;
+    margin: 0 auto;
 }
