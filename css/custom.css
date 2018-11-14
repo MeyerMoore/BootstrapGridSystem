@@ -63,18 +63,24 @@ p {
 @media screen and (min-width: 321px) and (max-width: 425px){
   /* test code */
   body {background-color: var(--mm-orange)}
+  /* hidden elements */
+  .nav-menu-xs {display: none;}
 }
 
 /* Medium */
 @media screen and (min-width: 426px) and (max-width: 768px){
   /* test code */
   body {background-color: var(--mm-blue)}
+  /* hidden elements */
+  .nav-menu-xs {display: none;}
 }
 
 /* Large */
 @media screen and (min-width: 769px) {
   /* test code */
   body {background-color: var(--mm-grey2)}
+  /* hidden elements */
+  .nav-menu-xs {display: none;}
 }
 
 .col-xl {
