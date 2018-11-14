@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --mm-red: rgb(214,95,69);
+    --mm-orange: rgb(222,160,61);
+    --mm-green: rgb(136,174,116);
+    --mm-blue: rgb(75,168,169);
+    --mm-grey1: rgb(240,240,240);
+    --mm-grey2: rgb(230,230,230);
+}
+
 @media screen() {
     
 }
