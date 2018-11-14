@@ -1,10 +1,59 @@
-/*placeholder text*/
+
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
 }
 
+h1 {
+    font-size: 64px;
+    font-family: 'Abel', sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+/* Mobile Devices ----------- */
+@media screen and (max-width : 425px) {
+    .row {
+
+    }
+}
+
+
+
+/* Laptops ----------- */
+@media screen
+and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media screen
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+.heading-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+<<<<<<< HEAD
+=======
 :root {
     --mm-red: rgb(214,95,69);
     --mm-orange: rgb(222,160,61);
@@ -17,3 +66,4 @@
 @media screen() {
     
 }
+>>>>>>> 0bf8fad19557f0fad62a8454fb712bc04e135e21
