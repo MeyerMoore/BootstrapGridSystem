@@ -33,17 +33,30 @@ p {
     --mm-grey1: rgb(240,240,240);
     --mm-grey2: rgb(230,230,230);
 }
-
+/* Global classes */
 .heading-img {
     margin: 0 auto;
     text-align: center;
 }
-
+.btn-circle {
+  width: 245px;
+  height: 245px;
+  padding: 10px 16px;
+  line-height: 1.33;
+  border-radius: 122.5px;
+  border: 15px solid white;
+  color: white;
+}
 
 /* Very Small */
 @media screen and (max-width: 320px) {
   /* test code */
-  body {background-color: var(--mm-red)}
+  /* body {background-color: var(--mm-red)} */
+  /* end test code */
+  .nav-menu-xs {
+    /* this element is only to be displayed on the small screen */
+    font-size: 14px !important;
+  }
 }
 
 /* Small */
