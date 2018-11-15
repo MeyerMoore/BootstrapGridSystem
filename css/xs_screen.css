@@ -24,7 +24,10 @@
     margin-bottom: 20px;
     padding: 0;
   }
-  .hide-on-xs {
+  .hide-if-xs {
     display: none;
+  }
+  .hide-if-not-xs {
+    display: contents;
   }
 }

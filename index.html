@@ -34,50 +34,52 @@
         </div>
     </div>
     <!-- Hidden html -->
-    <ul class="nav nav-menu-xs">
-        <li class="nav-item">
-            <a class="nav-link nav-list-item" href="#">SERVICES</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-list-item" href="#">WORK</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-list-item" href="#">BLOG</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-list-item" href="#">CONTACT</a>
-        </li>
-    </ul>
+    <div class="hide-if-not-xs">
+      <ul class="nav nav-menu-xs">
+          <li class="nav-item">
+              <a class="nav-link nav-list-item" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link nav-list-item" href="#">WORK</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link nav-list-item" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link nav-list-item" href="#">CONTACT</a>
+          </li>
+      </ul>
+    </div>
       <!-- End hidden html -->
       <div class="row1">
           <div class="column col-md"><h1>VISUAL DESIGN & WEB DEVELOPMENT</h1></div>
       </div>
       <div class="row1">
-          <div class="column col-md"><h3>FROM PARK CITY, UTAH</h3></div>
+          <div class="column col-md">FROM PARK CITY, UTAH</div>
       </div>
       <!-- Round Buttons -->
-
-      <div class="d-flex">
-        <button class="btn btn-circle btn-xl mr-auto" style="background-color: var(--mm-red)">
-          <h2>DESIGN</h2>
-        </button>
-        <button class="btn btn-circle btn-xl ml-auto" style="background-color: var(--mm-orange)">
-          <h2>DEVELOP</h2>
-        </button>
-      </div>
-      <div class="d-flex">
-        <button class="btn btn-circle btn-xl mr-auto" style="background-color: var(--mm-green)">
-          <h2>SUPPORT</h2>
-        </button>
-        <button class="btn btn-circle btn-xl ml-auto" style="background-color: var(--mm-blue)">
-          <h2>HOST</h2>
-        </button>
-      </div>
+      <div class="hide-if-not-xs">
+        <div class="d-flex">
+          <button class="btn btn-circle btn-xl mr-auto" style="background-color: var(--mm-red); margin-left: 15%;">
+            <h2>DESIGN</h2>
+          </button>
+          <button class="btn btn-circle btn-xl ml-auto" style="background-color: var(--mm-orange); margin-right: 15%;">
+            <h2>DEVELOP</h2>
+          </button>
+        </div>
+        <div class="d-flex">
+          <button class="btn btn-circle btn-xl mr-auto" style="background-color: var(--mm-green); margin-left: 15%;">
+            <h2>SUPPORT</h2>
+          </button>
+          <button class="btn btn-circle btn-xl ml-auto" style="background-color: var(--mm-blue); margin-right: 15%">
+            <h2>HOST</h2>
+          </button>
+        </div>
       </div>
       <!-- End round buttons -->
 
       <!-- Hidden element -->
-      <hr class="hide-on-xs">
+      <hr class="hide-if-xs">
 
       <div class="row">
           <div class="column col-md">
@@ -85,7 +87,7 @@
           </div>
       </div>
 
-      <div class="container selectedWorks">
+      <div class="container">
         <img class="img-fluid" src="assets/images/apple-ipad.jpg" alt="ipad">
         <!-- Image footer -->
         <div class="d-flex">
@@ -109,7 +111,7 @@
         </div>
       </div>
 
-      <div class="hide-on-xs selectedWorks">
+      <div class="hide-if-xs">
         <img class="img-fluid" src="assets/images/macbook.jpg" alt="macbook">
         <!-- Image footer -->
         <div class="d-flex">
@@ -133,7 +135,7 @@
         </div>
       </div>
 
-      <div class="hide-on-xs selectedWorks">
+      <div class="hide-if-xs">
         <img class="img-fluid" src="assets/images/man.jpg" alt="man with binary foreground">
         <!-- Image footer -->
         <div class="d-flex">
@@ -157,7 +159,7 @@
         </div>
       </div>
 
-      <div class="hide-on-xs selectedWorks">
+      <div class="hide-if-xs">
         <img class="img-fluid" src="assets/images/security.jpg" alt="screen with security">
         <!-- Image footer -->
         <div class="d-flex">
