@@ -3,4 +3,7 @@
   /* hidden elements */
   .nav-menu-xs {display: none;}
   /* visible elements */
+  .inline-md {
+    display: inline;
+  }
 }
