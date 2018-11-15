@@ -112,6 +112,15 @@ span {
     border-radius: 65px;
     border: .5em solid white;
     color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .container2 {
