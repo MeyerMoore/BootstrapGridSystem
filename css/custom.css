@@ -68,15 +68,25 @@ body {
   /* hidden elements */
 
   /* visible elements */
-  h1 {font-size: 40px;}
-  h2 {font-size: 32px;}
-  h3 {font-size: 26px;}
-  h4 {font-size: 22px;}
-  h5 {font-size: 18px;}
+  h1 {font-size: 36px;}
+  h2 {font-size: 28px;}
+  h3 {font-size: 22px;}
+  h4 {font-size: 28px;}
+  h5 {font-size: 14px;}
 
   .nav-menu-xs {
     /* this element is only to be displayed on the small screen */
     font-size: 14px !important;
+  }
+
+  .btn-circle {
+    width: 130px;
+    height: 130px;
+    padding: 10px 16px;
+    line-height: 1.33;
+    border-radius: 65px;
+    border: .5em solid white;
+    color: white;
   }
 }
 
