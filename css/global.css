@@ -31,17 +31,6 @@ body {
     text-align: center;
 }
 /* circular buttons */
-.btn-circle {
-  /*width: 245px;*/
-  /*height: 245px;*/
-  width: 105px;
-  height: 105px;
-  padding: 10px 16px;
-  line-height: 1.33;
-  border-radius: 122.5px;
-  border: .5em solid white;
-  color: white;
-}
 .btn-circle-const-tiny {
   width: 18px;
   height: 18px;

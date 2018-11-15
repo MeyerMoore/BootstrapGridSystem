@@ -18,12 +18,15 @@
   .nav-menu-sm {
 
   }
+  .nav-item {
+    padding-top: 40px;
+  }
   .container {
     align-content: center;
     max-width: 100%;
   }
   .hide-if-sm {
-    display: contents;
+    display: none;
   }
   .hide-if-not-sm {
     display: contents;
