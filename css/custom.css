@@ -78,8 +78,26 @@ span {
     width: 100%;
 }
 
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.btn-circle {
+  width: 130px;
+  height: 130px;
+  padding: 10px 16px;
+  line-height: 1.33;
+  border-radius: 65px;
+  border: .5em solid white;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /* Very Small */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 575.98px) {
   /* test code */
   /* body {background-color: var(--mm-red)} */
   /* end test code */
@@ -104,25 +122,6 @@ span {
     margin-bottom: 20px;
     padding: 0;
   }
-  .btn-circle {
-    width: 130px;
-    height: 130px;
-    padding: 10px 16px;
-    line-height: 1.33;
-    border-radius: 65px;
-    border: .5em solid white;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .container2 {
       display: none;
   }
@@ -134,16 +133,29 @@ span {
 }
 
 /* Small */
-@media screen and (min-width: 321px) and (max-width: 425px){
+@media screen and (min-width: 576px) and (max-width: 767.98px){
   /* test code */
-  body {background-color: var(--mm-orange)}
+  /* body {background-color: var(--mm-orange)} */
   /* hidden elements */
   .nav-menu-xs {display: none;}
   /* visible elements */
+  h1 {font-size: 36px;}
+  h2 {font-size: 28px;}
+  h3 {font-size: 22px;}
+  h4 {font-size: 28px;}
+  h5 {font-size: 14px;}
+  h6 {font-size: 12px;}
+
+  .navbar {
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
 }
 
 /* Medium */
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991.98px){
   /* test code */
   /* body {background-color: var(--mm-blue)} */
   /* end test code */
@@ -153,7 +165,7 @@ span {
 }
 
 /* Large */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   /* test code */
   /* body {background-color: var(--mm-grey2)} */
   /* end test code */
