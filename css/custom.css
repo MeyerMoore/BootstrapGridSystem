@@ -13,7 +13,7 @@
 }
 /* Global classes */
 /* Header and paragraph size and font settings */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
 h1 {font-size: 64px;}
@@ -21,6 +21,7 @@ h2 {font-size: 48px;}
 h3 {font-size: 40px;}
 h4 {font-size: 32px;}
 h5 {font-size: 28px;}
+h6 {font-size: 24px;}
 p {
     font-family: 'Abel', sans-serif;
 }
@@ -43,6 +44,14 @@ body {
   border-radius: 122.5px;
   border: .5em solid white;
   color: white;
+}
+.btn-circle-const-tiny {
+  width: 18px;
+  height: 18px;
+  padding: 0px 0px;
+  line-height: 1.33;
+  border-radius: 9px;
+  color: black;
 }
 .col-xl {
     text-align: center;
@@ -73,6 +82,7 @@ body {
   h3 {font-size: 22px;}
   h4 {font-size: 28px;}
   h5 {font-size: 14px;}
+  h6 {font-size: 12px;}
 
   .nav-menu-xs {
     /* this element is only to be displayed on the small screen */
