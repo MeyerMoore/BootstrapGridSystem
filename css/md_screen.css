@@ -3,21 +3,25 @@
   /* hidden elements */
   .nav-menu-xs {display: none;}
   /* visible elements */
+  .nav-menu-md {
+
+  }
   .inline-md {
     display: inline;
   }
-
   .container-md {
     width: 100%;
     margin: 0 auto;
     padding: 0;
   }
-
   .column-md {
     width: 50%;
     padding: 0;
   }
+  .hide-if-md {
+    display: none;
+  }
+  .hide-if-not-md {
+    display: contents;
+  }
 }
-
-
-

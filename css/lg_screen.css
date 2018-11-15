@@ -3,4 +3,13 @@
   /* hidden elements */
   .nav-menu-xs {display: none;}
   /* visible elements */
+  .nav-menu-lg {
+
+  }
+  .hide-if-lg {
+    display: none;
+  }
+  .hide-if-not-lg {
+    display: contents;
+  }
 }

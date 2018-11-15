@@ -96,3 +96,12 @@ span {
 .hide-if-not-xs {
   display: none;
 }
+.hide-if-not-sm {
+  display: none;
+}
+.hide-if-not-md {
+  display: none;
+}
+.hide-if-not-lg {
+  display: none;
+}
