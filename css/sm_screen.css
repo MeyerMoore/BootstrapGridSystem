@@ -16,4 +16,8 @@
     margin-bottom: 20px;
     padding: 0;
   }
+  .container {
+    align-content: center;
+    max-width: 100%;
+  }
 }
