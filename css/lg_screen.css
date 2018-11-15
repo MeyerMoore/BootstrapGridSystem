@@ -1,0 +1,6 @@
+/* Large */
+@media screen and (min-width: 992px) {
+  /* hidden elements */
+  .nav-menu-xs {display: none;}
+  /* visible elements */
+}
