@@ -17,12 +17,14 @@
   .nav-menu-xs {
     /* this element is only to be displayed on the small screen */
     font-size: 14px !important;
+    justify-content: center;
   }
   .navbar {
     height: 40px;
     margin-top: 40px;
     margin-bottom: 20px;
     padding: 0;
+
   }
   .hide-if-xs {
     display: none;
