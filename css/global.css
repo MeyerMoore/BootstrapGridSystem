@@ -82,6 +82,11 @@ span {
   margin: 5px 5px 10px 10px;
 }
 
+.img-fluid {
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+/* Logical CSS operators */
 .hide-if-not-xs {
   display: none;
 }
@@ -93,8 +98,4 @@ span {
 }
 .hide-if-not-lg {
   display: none;
-}
-.img-fluid {
-  border: 10px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
 }
