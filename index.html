@@ -62,6 +62,9 @@
               <li>
                   <img src="assets/images/logo.png" height="105" width="105" alt="CodeUp Design Logo">
               </li>
+              <li>
+                <p class="company-name"><span>codeup design</span></p>
+              </li>
               <li class="nav-item">
                   <a class="nav-link nav-list-item" href="#">SERVICES</a>
               </li>
@@ -81,10 +84,13 @@
   </header>
 
   <main class="container">
-    <div class="row">
-        <div class="col-xl">
-            <p class="company-name"><span>codeup design</span></p>
-        </div>
+    <!-- "codeup design" hides on md and lg screens -->
+    <div class="hide-if-md hide-if-lg">
+      <div class="row">
+          <div class="col-xl">
+              <p class="company-name"><span>codeup design</span></p>
+          </div>
+      </div>
     </div>
     <!-- Hidden html -->
     <div class="hide-if-not-xs">
