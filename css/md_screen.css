@@ -24,4 +24,12 @@
   .hide-if-not-md {
     display: contents;
   }
+
+  .company-name {
+  margin-top: 26px;
+  }
+
+  .nav-link {
+  margin-top: 40px;
+  }
 }

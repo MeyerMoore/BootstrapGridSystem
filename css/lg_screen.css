@@ -12,4 +12,16 @@
   .hide-if-not-lg {
     display: contents;
   }
+
+  .heading-img {
+    margin: .5em;
+  }
+
+  .company-name {
+    margin-top: 26px;
+  }
+
+  .nav-link {
+    margin-top: 40px;
+  }
 }
